@@ -1,0 +1,40 @@
+body {
+  background-image: url('../img/bckgr.jpg');
+  background-repeat: no-repeat;
+}
+
+.popover {
+  width: 300px;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 35px;
+}
+
+.popover_inactive {
+  display: none;
+}
+
+.popover__title {
+  font-size: 24px;
+  border-bottom: 1px solid white;
+}
+
+.popover__text {
+  font-size: 24px;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 26px;
+  background-color: brown;
+  color: white;
+  margin: 100px auto;
+}
