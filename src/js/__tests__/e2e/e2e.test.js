@@ -1,7 +1,7 @@
 import puppetteer from 'puppeteer';
 
 jest.setTimeout(30000);
-describe('e2e test', () => {
+describe('e2e test', async () => {
   let browser = null;
   let page = null;
   const baseUrl = 'http://localhost:8080';

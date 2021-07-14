@@ -1,5 +1,8 @@
 export default class Popover {
   constructor(container) {
+    if (!(container instanceof HTMLElement)) {
+      throw new Error('Please provide the HTML element');
+    }
     this.container = container;
   }
 
